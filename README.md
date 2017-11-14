@@ -24,7 +24,7 @@ compiler and make.
 $ git clone https://github.com/shenki/libscrewmysecurity
 $ cd libscrewmysecurity
 $ make
-$ LD_PRELOAD./libscrewmysecurity.so wget https://internaldomain/important-file.txt
+$ LD_PRELOAD=./libscrewmysecurity.so wget https://internaldomain/important-file.txt
 ```
 
 ## How it works
